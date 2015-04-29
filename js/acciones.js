@@ -5,8 +5,10 @@ $ ('#btnvibrar') .on ('top' , function () {
   navigator .vibrate (1000);
  });//  tap a btnvibrar
  $ ('btnbeep') .on ('tap' , function () {
-	 navigator.beep (1) ;
+	 navigator.notification.beep(1);
+	 
  }); // tap de beep 
+ 
 }); 
 });
 
